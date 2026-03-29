@@ -7,9 +7,9 @@ class Ahdeth extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScaffold(
+    return const CustomScaffold(
       img: AppAssets.ahdethBackground,
-      body: const Center(child: Text("Ahdeth")),
+      body: Center(child: Text("Ahdeth")),
     );
   }
 }

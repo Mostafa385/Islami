@@ -34,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     var mediaQuery = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Color(0XFF202020),
+      backgroundColor: const Color(0XFF202020),
       body: Center(
         child: AnimatedScale(
           scale: _scale,

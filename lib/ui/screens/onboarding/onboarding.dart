@@ -105,7 +105,7 @@ class _OnboardingState extends State<Onboarding> {
                         );
                       } else {
                         _controller.previousPage(
-                          duration: Duration(milliseconds: 300),
+                          duration: const Duration(milliseconds: 300),
                           curve: Curves.easeInOut,
                         );
                       }

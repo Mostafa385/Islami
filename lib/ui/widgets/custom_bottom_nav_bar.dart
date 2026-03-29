@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CustomBottomNavBar extends StatelessWidget {
-  late bool isSelected;
-  late String icnPath;
+  final bool isSelected;
+  final String icnPath;
 
-  CustomBottomNavBar({
+  const CustomBottomNavBar({
     super.key,
     required this.icnPath,
     required this.isSelected,

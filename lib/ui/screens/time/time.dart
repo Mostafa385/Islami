@@ -8,7 +8,7 @@ class Time extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScaffold(
+    return const CustomScaffold(
       img: AppAssets.timeBackground,
       body: Center(child: Text("Times")),
     );

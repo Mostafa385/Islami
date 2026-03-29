@@ -8,7 +8,7 @@ class Radioo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScaffold(
+    return const CustomScaffold(
       img: AppAssets.radioBackground,
       body: Center(child: Text("Radio")),
     );

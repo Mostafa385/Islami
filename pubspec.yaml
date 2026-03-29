@@ -63,7 +63,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
-    - assets/font/
+#    - assets/font/
     - assets/Suras/
   #   - images/a_dot_ham.jpeg
 

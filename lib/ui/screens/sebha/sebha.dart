@@ -8,7 +8,7 @@ class Sebha extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScaffold(
+    return const CustomScaffold(
       img: AppAssets.sebhaBackground,
       body: Center(child: Text("Sebha")),
     );
